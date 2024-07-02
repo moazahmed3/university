@@ -1,0 +1,15 @@
+.blog-course{
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)),
+    url('./../img//blog-page-header.df5dbefd79715935286d.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.cards-blog .card-body{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+.cards-blog .card-body p{
+    color: var(--sec-color) !important;
+}

@@ -1,0 +1,33 @@
+.home header {
+  background: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)),
+    url("./../img/home-page-header.650ac40902bdb8be3bd8.jpg");
+  font-family: "Montserrat", sans-serif;
+  background-size: cover;
+}
+.home .home-sec {
+  background-position: center;
+  color: var(--sec-color);
+}
+.home .home-sec h1 {
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+}
+.home .home-sec a{
+    display: inline-block;
+}
+.course-home  {
+    font-family: "Montserrat", sans-serif;
+
+}
+/* end course home  */
+/* start sec-blog */
+.sec-blog{
+  background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), 
+  url('./../img/blog-section-img.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
+}
+.sec-blog h3{
+  font-size: 2rem;
+}

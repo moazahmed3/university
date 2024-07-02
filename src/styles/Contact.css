@@ -1,0 +1,19 @@
+.contact-hero {
+  background-image: linear-gradient(
+      rgba(5, 10, 35, 0.75),
+      rgba(5, 10, 35, 0.75)
+    ),
+    url("./../img//contact-page-header.1d953981d4b3d956c4a4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.cites h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.form-control:focus,
+.form-select:focus {
+  border-color: #dc3545 !important;
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+}

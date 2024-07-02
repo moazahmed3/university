@@ -1,0 +1,22 @@
+.header-course{
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)),
+    url('./../img/courses-page-header.f9054ff892a8987b3144.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.header-course h1{
+    font-size: 4rem;
+}
+.card-img-overlay {
+    background-color: rgba(5, 10, 35, 0.7);
+}
+.card{
+    transition: all ease .55s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.frq-course p{
+    color: #fff  !important;
+}

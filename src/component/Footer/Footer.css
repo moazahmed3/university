@@ -1,0 +1,26 @@
+.social-media svg {
+  font-size: 35px;
+  transition: all ease 0.55s;
+  cursor: pointer;
+}
+.social-media svg:hover{
+    fill: black;
+}
+.links-footer {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+}
+.links-footer li {
+    padding-top: 7px;
+
+}
+.links-footer a {
+  color: var(--main-color);
+  text-decoration: none;
+  transition: all ease 0.55s;
+  font-weight: 700;
+}
+.links-footer a:hover {
+  color: black;
+}

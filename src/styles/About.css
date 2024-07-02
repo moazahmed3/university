@@ -1,0 +1,19 @@
+.about-course{
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)),
+    url('./../img//about-page-header.643c40ec86dc19fed245.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.sec-about h2 ,.about{
+    font-family: "Montserrat", sans-serif;
+
+}
+.hero-text h1{
+    font-size: 4rem !important;
+}
+.about-choose p ,h5{
+    color: black !important  ;
+}
+.about-choose .box{
+    background-color: #fff !important;
+}

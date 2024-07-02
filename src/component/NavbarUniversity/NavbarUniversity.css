@@ -1,0 +1,36 @@
+.navbar-nav a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--sec-color);
+  text-decoration: none;
+  padding-right: 12px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.navbar-nav a:hover {
+  color: var(--main-color);
+}
+.navbar-nav a.active {
+  color: var(--main-color);
+}
+.navbar-toggler {
+  background-color: var(--sec-color) !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    background-color: var(--sec-color);
+    padding: 10px !important;
+    border-radius: 0.375rem !important;
+  }
+  .navbar-nav a {
+    color: #212529 !important;
+    padding: 8px 0px;
+
+  }
+  .navbar-nav a.active {
+    color: var(--main-color) !important;
+  }
+}

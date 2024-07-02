@@ -1,0 +1,6 @@
+.CardBLog{
+    transition: all ease .55s;
+}
+.CardBLog:hover{
+    transform:  scale(1.05);
+}
